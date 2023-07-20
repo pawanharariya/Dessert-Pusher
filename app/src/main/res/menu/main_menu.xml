@@ -6,5 +6,6 @@
         android:enabled="true"
         android:title="@string/share"
         android:visible="true"
+        android:icon="?android:attr/actionModeShareDrawable"
         app:showAsAction="ifRoom" />
 </menu>
