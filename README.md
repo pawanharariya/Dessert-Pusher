@@ -153,7 +153,6 @@ NOTE: To save the text in our `EditText` in case of shutdown, we must have an `i
 We can simulate the app shutdown, by killing our app process manually with adb command line tool, using the following command.
 ```
 adb shell am kill <app-package-name>
-
 ```
 
 ## onSaveInstanceState callback ##
