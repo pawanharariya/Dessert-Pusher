@@ -1,4 +1,4 @@
-# Desset Pusher #
+# Dessert Pusher #
 Dessert Pusher is a simple game, in which the user presses the desserts displayed on the screen to make them. For each dessert created, you get some points and you can share them. The purpose of this app is to learn about activity lifecyle, and how to keep track of the score during configuration changes.
 
 This apps implements various activity lifecycle callbacks, and shows how they can be used for setup and cleanup via the use of a timer. It also uses Lifecycle Library so that the setup and clean up can be done by the timer class itself. Also, the save instance callback is implemented to save and restore data during configuration changes and process-related shutdown.
